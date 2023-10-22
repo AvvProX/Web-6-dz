@@ -2,7 +2,10 @@ nav {
     height: 37px;
     display: flex;
     align-items: center;
-    background-color: #1dbfa6 ; 
+    flex-direction:column;
+    justify-content:flex-end ;
+
+
   }
   
   footer {
@@ -26,6 +29,10 @@ nav {
     padding:0;
   }
   
+  li {
+    display: flex;
+  }
+
 
   
   
