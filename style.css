@@ -3,6 +3,7 @@
   padding: 0;
   box-shadow: none;
 }
+body{background-color: #07689F;}
 .text {
   display: flex;
   flex-direction: column;
@@ -10,28 +11,63 @@
   padding-right: 20px;
   padding-left: 10px;
 }
-h1{padding-top: 10px;}
+
+.Zag1
+{
+  text-align: left;
+  color: black;
+  margin-left: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 10px;
+  background-color: white;
+}
+
 h2{padding-bottom: 8px;}
 .blok1{     
   display: flex;
-  background-color: bisque;
+  background-color: #f37b66;
   height: 250px;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
+  margin-top: 10px;
 }
 .blok2{     
   display: flex;
-  background-color: bisque;
+  background-color: #f37b66;
   height: 250px;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
+  flex-direction: column;
+  margin-top: 10px;
+  align-content: stretch;
+  justify-content:space-evenly;
 }
 
-.meny {display: flex;  flex-direction:row; justify-content:space-between; align-items:center; background-color: #E5ECEB;}
+.kompet
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.imgKom{
+width: 100px;
+}
+figcaption{
+margin-top: 10px;
+word-break:break-all;
+text-align: center;  
+}
+figure{
+  display: flex;
+  width: 150px;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.meny {display: flex;  flex-direction:row; justify-content:space-between; align-items:center; background-color: #FF7E67;}
 ul{ padding: 2px; padding-left: 7px; padding-right:20px;}
   footer {
     display: flex;
@@ -46,6 +82,7 @@ header{display: flex;
   justify-content: flex-end; 
   background-image: url(imag/фон2.jpg); 
   height: 400px;
+  align-items:flex-start;
 }
 .kontact {
     display: flex;
