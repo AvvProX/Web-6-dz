@@ -3,6 +3,7 @@
   padding: 0;
   box-shadow: none;
 }
+
 body{background-color: #07689F;}
 .text {
   display: flex;
@@ -24,6 +25,46 @@ body{background-color: #07689F;}
 }
 
 h2{padding-bottom: 8px;}
+.blokKontact{  
+  display: flex;
+  background-color: #f37b66;
+  height: 250px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-top: 10px;}
+
+  .tableKontact{
+    border-collapse: separate;
+    width: 100%;
+    border-spacing: 40px 9px;
+  }
+  .tdKontact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 290px;
+    height: 170px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 7px;
+    padding: 8px;
+    text-align: center;
+    background-color: #f1e4db;  
+    align-items: center;
+  }
+  .trKontact{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .textKont{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+
 .blok1{     
   display: flex;
   background-color: #f37b66;
@@ -44,6 +85,79 @@ h2{padding-bottom: 8px;}
   justify-content:space-evenly;
 }
 
+.blok3{     
+  display: flex;
+    background-color: #f37b66;
+    height: 250px;
+    margin-top: 10px;
+    list-style-type: disc;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.ysly{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: -webkit-fill-available;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  align-content: center;
+  align-content: space-around;
+
+}
+.li{list-style-type: disc; display: list-item;flex-wrap: wrap; padding: 7px; height: 81px;
+  width: 341px;}
+
+.blok4{     
+  display: flex;
+  background-color: #f37b66;
+  height: 250px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-top: 10px;
+  padding-top: 30px;
+}
+.btn{
+  position: relative;
+  margin-top: 10px;
+  padding: 0.5em 1.5em;
+  border-radius: 0.4em;
+  background-color:  rgb(250, 245, 236);
+   
+}
+.btn:hover {
+  transition-duration: 0.1s;
+  background-color: #e6c0c0;
+}
+.btn:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 0.4em;
+  left: 0;
+  top:0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.5s;
+  box-shadow: 0 0 10px 40px white;
+}
+.btn:active:after {
+  box-shadow: 0 0 0 0 white;
+  position: absolute;
+  border-radius: 0.4em;
+  left: 0;
+  top:0;
+  opacity: 1;
+  transition: 0s;
+}
+.btn:active {
+  top: 1px;
+}
+
 .kompet
 {
   display: flex;
@@ -52,7 +166,7 @@ h2{padding-bottom: 8px;}
   justify-content: space-around;
 }
 .imgKom{
-width: 100px;
+ width: 100px;
 }
 figcaption{
 margin-top: 10px;
@@ -69,13 +183,20 @@ figure{
 
 .meny {display: flex;  flex-direction:row; justify-content:space-between; align-items:center; background-color: #FF7E67;}
 ul{ padding: 2px; padding-left: 7px; padding-right:20px;}
+
   footer {
     display: flex;
-    flex-direction:column;
+    flex-direction: row;
     color: #000000;
-    align-items:flex-start;
-    margin-left:10px;
+    align-items: center;
+    margin-left: 10px;
+    justify-content: space-between;
+    margin-right: 10px ;
+    margin-top: 10px;
+    margin-bottom: 4px;
   }
+  .textfooter{color: #1e1e1e;}
+  
 header{display: flex;  
   width: 100%;
   background-size: cover;
@@ -126,4 +247,32 @@ main{  text-align:left;color:black; font-size:18px; }
     color: #fff;
   }
   
-  
+  .tableWork {
+    width: 90%;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+
+  .white {
+    background-color: #ffffff;
+  }
+
+ .colored {
+    background-color: #93c1dc;
+  }  
+
+  .blok5{     
+    display: flex;
+    background-color: #f37b66;
+    height: 250px;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+  }
